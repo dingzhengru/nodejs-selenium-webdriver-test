@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-selenium-webdriver-test",
+  "version": "1.0.0",
+  "description": "用 nodejs 測試 selenium-webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingzhengru/nodejs-selenium-webdriver-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dingzhengru/nodejs-selenium-webdriver-test/issues"
+  },
+  "homepage": "https://github.com/dingzhengru/nodejs-selenium-webdriver-test#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
